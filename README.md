@@ -11,12 +11,12 @@ Using  SMART framework, main goal is to achive stable player count and improving
 ## Project Output
 Exploratory Data Analysis (EDA) with Summary Of Analysis:
 
-| # | Question | Variables | Method | Why this method |
-|---|---|---|---|---|
-| 1 | Does playtime differ by engagement? | PlayTimeHours | Two-Sample T-Test | Comparing means of a numeric variable between 2 groups |
-| 2 | What do players play? | GameGenre, EngagementLevel | Chi-Square Test | Both variables are categorical (labels, not numbers) |
-| 3 | When/how often do players play? | SessionsPerWeek, AvgSessionDuration | Measures of Dispersion | Understand spread/consistency of behavior, not just the average |
-| 4 | Does progression drive engagement? | PlayerLevel, AchievementsUnlocked | Spearman Correlation | One variable is ordinal; checking if two variables move together |
+| # | Question | Variables |
+|---|---|---|
+| 1 | Does playtime differ by engagement? | PlayTimeHours | 
+| 2 | What do players play? | GameGenre, EngagementLevel |
+| 3 | When/how often do players play? | SessionsPerWeek, AvgSessionDuration |
+| 4 | Does progression drive engagement? | PlayerLevel, AchievementsUnlocked | 
 
 The Main Problem Statement on SMART framework
 
