@@ -2,7 +2,7 @@
 
 ## Repository Outline
 1. README.md - General project overview and documentation
-2. P0M1_Fauzi_maulana.ipynb - Notebook containing data analysis and visualizations using Python
+2. Player Retention.ipynb - Notebook containing data analysis and visualizations using Python
 3. online_gaming_behavior_dataset.csv - Dataset used for analysis
 
 ## Problem Background
@@ -32,8 +32,12 @@ The Main Problem Statement on SMART framework
 ## Method
 This project uses statistical analysis and EDA methods:
 
-- Two-Sample T-Test — to test whether playtime differs significantly between Low and High engagement players
-- Central Tendency (mean, median, mode) — to understand typical session frequency across the playerbase
+| # | Method | Why this method |
+|---|---|---|
+| 1 | Two-Sample T-Test | Comparing means of a numeric variable between 2 groups |
+| 2 |  Chi-Square Test | Both variables are categorical (labels, not numbers) |
+| 3 |  Measures of Dispersion | Understand spread/consistency of behavior, not just the average |
+| 4 | Spearman Correlation | One variable is ordinal; checking if two variables move together |
 
 
 ## Stacks
