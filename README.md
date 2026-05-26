@@ -6,12 +6,19 @@
 3. online_gaming_behavior_dataset.csv - Dataset used for analysis
 
 ## Problem Background
-main goal is to achive stable player count and improving player experience, within the next season 6 months prior so the player base would be much healthier. stable player counts can be studied by how,when, and what players play. 
+Using  SMART framework, main goal is to achive stable player count and improving player experience, within the next season 6 months prior so the player base would be much healthier. stable player counts can be studied by how,when, and what players play. 
 
 ## Project Output
-Exploratory Data Analysis (EDA) with 5 visualizations:
+Exploratory Data Analysis (EDA) with Summary Of Analysis:
 
-- Bar chart: Average sessions per week by engagement level
+| # | Question | Variables | Method | Why this method |
+|---|---|---|---|---|
+| 1 | Does playtime differ by engagement? | PlayTimeHours | Two-Sample T-Test | Comparing means of a numeric variable between 2 groups |
+| 2 | What do players play? | GameGenre, EngagementLevel | Chi-Square Test | Both variables are categorical (labels, not numbers) |
+| 3 | When/how often do players play? | SessionsPerWeek, AvgSessionDuration | Measures of Dispersion | Understand spread/consistency of behavior, not just the average |
+| 4 | Does progression drive engagement? | PlayerLevel, AchievementsUnlocked | Spearman Correlation | One variable is ordinal; checking if two variables move together |
+
+The Main Problem Statement on SMART framework
 
 
 ## Data
